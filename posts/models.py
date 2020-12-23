@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 from django.conf import settings
 
 
-# Create your models here.
+# The post model
 class Post(models.Model):
     title = models.CharField(
         max_length=200,
